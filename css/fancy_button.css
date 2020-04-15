@@ -1,0 +1,66 @@
+<style>
+    .fancyButton {
+      display: inline-block;
+      padding: 15px 15px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      box-shadow: 0 9px #999;
+    }
+    .fancyButton:hover {background-color: #3e8e41}
+    .fancyButton:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    </style>
+    <style>
+    .fancyButtonRed {
+      display: inline-block;
+      padding: 15px 15px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #AF504C;
+      border: none;
+      box-shadow: 0 9px #999;
+    }
+    .fancyButtonRed:hover {background-color: #8e413e}
+    .fancyButtonRed:active {
+      background-color: #8e413e;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    </style>
+	<style>
+	img.auto_size {
+		width:30%;
+		margin:5%;
+		display: inline-block;
+	}
+	</style>
+	<style>
+	.container {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  height: 200px;
+	  width: 400px;
+	  
+	  
+	}
+	.social {
+	  position: relative;
+	  display: inline-block;
+	  float: left;
+	  padding: 10px;
+	}
+	</style>
