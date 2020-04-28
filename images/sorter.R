@@ -19,7 +19,7 @@ for (m in mags){
     #write
     vars = c(vars,
              paste0(sprintf('var %s%s%s = [', s, m, substr(as.character(r), 1, 2)),
-             paste0(sprintf("{exemplar: '%s', category: '%s', rot: '%s'}", 
+             paste0(sprintf("{exemplar: '%s', category: '%s', rotation: '%s'}", 
                             imgs, 
                             rep(c("CA", "NM"), each = length(imgs)/2), 
                             rep(r, length(imgs))),
